@@ -173,16 +173,11 @@ def update_data(conn, df, changes):
 """
 # :shopping_bags: Inventory tracker
 
-**Welcome to Alice's Corner Store's intentory tracker!**
+**Welcome to Unibiz My Lyf inventory tracker!**
 This page reads and writes directly from/to our inventory database.
 """
 
-st.info(
-    """
-    Use the table below to add, remove, and edit items.
-    And don't forget to commit your changes when you're done.
-    """
-)
+
 
 # Connect to database and create table if needed
 conn, db_was_just_created = connect_db()
